@@ -28,6 +28,6 @@
         echo "<br>";
     }
     ?>
-    <a href="index.html">Torna alla pagina principale</a>
+    <a href="../">Torna alla pagina principale</a>
 </body>
 </html>

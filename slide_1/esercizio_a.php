@@ -30,6 +30,6 @@
         }
         ?>
     </table>
-    <a href="index.html" style="display: block; text-align: center;">Torna alla pagina principale</a>
+    <a href="../" style="display: block; text-align: center;">Torna alla pagina principale</a>
 </body>
 </html>

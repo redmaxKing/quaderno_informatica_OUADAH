@@ -21,6 +21,6 @@
     ?>
     <h1><?php echo "$saluto, $nome!"; ?></h1>
     <p>Stai usando il browser: <?php echo $_SERVER['HTTP_USER_AGENT']; ?></p>
-    <a href="index.html">Torna alla pagina principale</a>
+    <a href="../">Torna alla pagina principale</a>
 </body>
 </html>
