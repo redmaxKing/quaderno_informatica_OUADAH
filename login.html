@@ -2,23 +2,24 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <title>Registrazione Utente</title>
-    <link rel="stylesheet" href="registrazione.css">
+    <title>Login Utente</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
     <div class="container">
-        <h1>Registrazione Utente</h1>
-        <form action="registrazione_process.php" method="post" class="registration-form">
+        <h1>Login Utente</h1>
+        <form action="login_process.php" method="post" class="login-form">
             <div class="form-group">
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username" placeholder="Inserisci il tuo username" required>
             </div>
             <div class="form-group">
                 <label for="password">Password:</label>
-                <input type="password" id="password" name="password" placeholder="Crea una password" required>
+                <input type="password" id="password" name="password" placeholder="Inserisci la tua password" required>
             </div>
-            <button type="submit" class="btn-submit">Registrati</button>
+            <button type="submit" class="btn-submit">Login</button>
         </form>
+        <a href="registrazione.php" class="link">Non hai un account? Registrati qui</a>
     </div>
 </body>
 </html>
