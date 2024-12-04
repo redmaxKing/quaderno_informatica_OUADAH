@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Registrazione Utente</title>
-    <link rel="stylesheet" href="registrazione.css">
 </head>
 <body>
     <div class="container">
